@@ -12,7 +12,6 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   
- <!-- START Build DEF -->
   <build>
 		<plugins>
 			<plugin>
@@ -164,7 +163,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-  <!-- END Build DEF -->
   
  <repositories>
 		<repository>
