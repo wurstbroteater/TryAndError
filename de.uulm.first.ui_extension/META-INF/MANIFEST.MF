@@ -6,7 +6,8 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: de.uulm.first.ui_extension.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.ui.workbench.texteditor;bundle-version="3.15.0"
+ org.eclipse.ui.workbench.texteditor;bundle-version="3.15.0",
+ org.junit
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Automatic-Module-Name: de.uulm.first.ui.extension
 Bundle-ActivationPolicy: lazy
