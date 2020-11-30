@@ -8,6 +8,4 @@ cache:
 install: true
 script:
   - mvn clean verify
-  - sed -i'' -e "s/\$VERSION/${TRAVIS_TAG:=0.0.0}/" descriptor.json
-  - sed -i'' -e "s/\$DATE/$(date +%Y-%m-%d)/" descriptor.json
 
