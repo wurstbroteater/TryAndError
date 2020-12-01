@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: ui_extension_tests
 Bundle-SymbolicName: de.uulm.first.ui_extension-test;singleton:=true
-Bundle-Version: 0.0.2.202012011250
+Bundle-Name: ui_extension_tests
+Bundle-Version: 0.0.2.202012011425
 Require-Bundle:  org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: Uni Ulm
 Fragment-Host: de.uulm.first.ui_extension;bundle-version="0.0.1"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 
