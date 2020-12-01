@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<component name="org.eclipse.jdt.debug_3.16.0.v20200828-0821" version="1.2">
-    <plugin id="org.eclipse.jdt.debug_3.16.0.v20200828-0821"/>
+<component name="org.eclipse.jdt.debug_3.11.50.v20170920-1717" version="1.2">
+    <plugin id="org.eclipse.jdt.debug_3.11.50.v20170920-1717"/>
     <package name="org.eclipse.jdt.debug.core" visibility="1">
         <type name="IJavaArray" restrictions="3"/>
         <type name="IJavaArrayType" restrictions="3"/>
