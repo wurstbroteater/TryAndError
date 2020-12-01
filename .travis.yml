@@ -1,5 +1,5 @@
-sudo: false
 language: java 
+os: linux
 dist: bionic # is ubuntu 18.04
 jdk: ocraclejdk8 
 cache:
