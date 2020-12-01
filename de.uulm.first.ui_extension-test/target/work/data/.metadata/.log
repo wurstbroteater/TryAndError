@@ -1,4 +1,4 @@
-!SESSION 2020-12-01 12:17:57.127 -----------------------------------------------
+!SESSION 2020-12-01 13:50:45.777 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=14
 java.vendor=Oracle Corporation
@@ -6,17 +6,17 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
 Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/eric/eclipseComitterWorkspace/TryAndError/de.uulm.first.ui_extension-test/target/surefire.properties
 Command-line arguments:  -data /home/eric/eclipseComitterWorkspace/TryAndError/de.uulm.first.ui_extension-test/target/work/data -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/eric/eclipseComitterWorkspace/TryAndError/de.uulm.first.ui_extension-test/target/surefire.properties
 
-!ENTRY org.eclipse.swt.cocoa.macosx.x86_64 2 0 2020-12-01 12:18:01.828
+!ENTRY org.eclipse.swt.cocoa.macosx.x86_64 2 0 2020-12-01 13:50:50.371
 !MESSAGE Could not resolve module: org.eclipse.swt.cocoa.macosx.x86_64 [101]
   Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=cocoa) (osgi.os=macosx) (osgi.arch=x86_64) )"
 
 
-!ENTRY org.eclipse.swt.win32.win32.x86_64 2 0 2020-12-01 12:18:01.829
+!ENTRY org.eclipse.swt.win32.win32.x86_64 2 0 2020-12-01 13:50:50.372
 !MESSAGE Could not resolve module: org.eclipse.swt.win32.win32.x86_64 [100]
   Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86_64))"
 
 
-!ENTRY org.eclipse.osgi 4 0 2020-12-01 12:18:01.829
+!ENTRY org.eclipse.osgi 4 0 2020-12-01 13:50:50.372
 !MESSAGE Application error
 !STACK 1
 org.eclipse.e4.core.di.InjectionException: java.lang.NoClassDefFoundError: javax/annotation/PostConstruct
@@ -59,7 +59,7 @@ Caused by: java.lang.ClassNotFoundException: javax.annotation.PostConstruct cann
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 28 more
 
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-12-01 12:18:01.835
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-12-01 13:50:50.377
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 java.lang.NoClassDefFoundError: javax/annotation/PreDestroy

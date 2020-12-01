@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='de.uulm.first.ui_extension' version='0.0.2.202012011117'>
-    <update id='de.uulm.first.ui_extension' range='[0.0.0,0.0.2.202012011117)' severity='0'/>
+  <unit id='de.uulm.first.ui_extension' version='0.0.2.202012011250'>
+    <update id='de.uulm.first.ui_extension' range='[0.0.0,0.0.2.202012011250)' severity='0'/>
     <properties size='4'>
       <property name='org.eclipse.equinox.p2.name' value='ui_extension'/>
       <property name='maven-groupId' value='de.uulm.first.ui_extension'/>
@@ -9,8 +9,8 @@
       <property name='maven-version' value='0.0.2-SNAPSHOT'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='de.uulm.first.ui_extension' version='0.0.2.202012011117'/>
-      <provided namespace='osgi.bundle' name='de.uulm.first.ui_extension' version='0.0.2.202012011117'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.uulm.first.ui_extension' version='0.0.2.202012011250'/>
+      <provided namespace='osgi.bundle' name='de.uulm.first.ui_extension' version='0.0.2.202012011250'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
     </provides>
     <requires size='16'>
@@ -32,13 +32,13 @@
       <required namespace='osgi.bundle' name='org.eclipse.jdt.ui' range='0.0.0'/>
     </requires>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='de.uulm.first.ui_extension' version='0.0.2.202012011117'/>
+      <artifact classifier='osgi.bundle' id='de.uulm.first.ui_extension' version='0.0.2.202012011250'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: de.uulm.first.ui_extension;singleton:=true&#xA;Bundle-Version: 0.0.2.202012011117&#xA;
+          Bundle-SymbolicName: de.uulm.first.ui_extension;singleton:=true&#xA;Bundle-Version: 0.0.2.202012011250&#xA;
         </instruction>
       </instructions>
     </touchpointData>

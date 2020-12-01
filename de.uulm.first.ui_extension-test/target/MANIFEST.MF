@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ui_extension_tests
 Bundle-SymbolicName: de.uulm.first.ui_extension-test;singleton:=true
-Bundle-Version: 0.0.2.202012011117
+Bundle-Version: 0.0.2.202012011250
 Require-Bundle:  org.junit
 Bundle-Vendor: Uni Ulm
 Fragment-Host: de.uulm.first.ui_extension;bundle-version="0.0.1"
