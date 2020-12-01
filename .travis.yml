@@ -2,7 +2,7 @@ sudo: false #faster buillds
 dist: bionic
 
 language: java 
-jdk: ocraclejdk8
+jdk: openjdk8
  
 cache:
   directories:
