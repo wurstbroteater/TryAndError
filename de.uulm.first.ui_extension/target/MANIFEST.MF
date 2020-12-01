@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ui_extension
 Bundle-SymbolicName: de.uulm.first.ui_extension;singleton:=true
-Bundle-Version: 0.0.2.202012010935
+Bundle-Version: 0.0.2.202012011009
 Bundle-Activator: de.uulm.first.ui_extension.Activator
 Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.core
  .resources,org.eclipse.jdt.core,org.eclipse.ui.workbench.texteditor,org
