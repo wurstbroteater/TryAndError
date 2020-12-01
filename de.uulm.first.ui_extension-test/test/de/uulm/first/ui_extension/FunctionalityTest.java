@@ -1,4 +1,4 @@
-package de.uulm.first.ui_extension_tests;
+package de.uulm.first.ui_extension;
 
 import static org.junit.Assert.*;
 
@@ -8,7 +8,7 @@ public class FunctionalityTest {
 
 	@Test
 	public void test() {
-		assertEquals(42, 40+2);
+		assertEquals(42, 40 + 2);
 	}
 
 }
