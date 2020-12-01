@@ -1,6 +1,6 @@
 sudo: false
 language: java 
-dist: trusty
+dist: bionic
 jdk: ocraclejdk8 
 cache:
   directories:
