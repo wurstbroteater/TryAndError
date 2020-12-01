@@ -1,6 +1,5 @@
 language: java 
-os: linux
-dist: bionic # is ubuntu 18.04
+dist: trusty
 jdk: ocraclejdk8 
 cache:
   directories:
