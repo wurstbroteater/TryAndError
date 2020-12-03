@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: de.uulm.first.ui_extension.FunctionalityTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in de.uulm.first.ui_extension.FunctionalityTest
+aSecondTest(de.uulm.first.ui_extension.FunctionalityTest)  Time elapsed: 0.003 s
+aFailedTest(de.uulm.first.ui_extension.FunctionalityTest)  Time elapsed: 0.001 s
+meaningOfEverythingTest(de.uulm.first.ui_extension.FunctionalityTest)  Time elapsed: 0 s

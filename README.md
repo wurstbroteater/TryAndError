@@ -2,5 +2,6 @@
 Test eclipse plugin development and Travis
 
 ## Requirements
-The default java version (in linux the path of $JAVA_HOME) needs to be set to java 1.8 (no 11 or higher) due to OSGI problems
+If JAVA 1.8 is wanted: change eclipse-repo.url to sth like oxygen 
+At the moment java 11 or higher needs t be set as env var ($JAVA_HOME)
 

@@ -1,15 +1,14 @@
-sudo: false #faster builds
 dist: bionic
 
 language: java 
-jdk: openjdk8
+#jdk: openjdk8
 
 #-----start GUI testing stuff
 env:
   global:
     - DISPLAY=:99.0
 before_install:
-  -sh -e /etc/init.d/xvfb start - sleep 10
+  - sh -e /etc/init.d/xvfb start - sleep 10
 #-----end GUI testin stuff
 cache:
   directories:
