@@ -1,14 +1,20 @@
-sudo: false #faster buillds
+sudo: false #faster builds
 dist: bionic
 
 language: java 
 jdk: openjdk8
- 
+
+#-----start GUI testing stuff
+env:
+  global:
+    - DISPLAY=:99.0
+before_install:
+  -sh -e /etc/init.d/xvfb start - sleep 10
+#-----end GUI testin stuff
 cache:
   directories:
   - "$HOME/.m2"
 install: true
 script:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - mvn clean verify -e
 
