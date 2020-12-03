@@ -1,20 +1,18 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.jdt.debug
 Bundle-SymbolicName: org.eclipse.jdt.debug; singleton:=true
-Archiver-Version: Plexus Archiver
-Built-By: genie.releng
 Require-Bundle: org.eclipse.core.resources;bundle-version="[3.5.0,4.0.
- 0)",org.eclipse.debug.core;bundle-version="[3.9.0,4.0.0)",org.eclipse
- .jdt.core;bundle-version="[3.8.0,4.0.0)",org.eclipse.core.runtime;bun
- dle-version="[3.11.0,4.0.0)",org.eclipse.core.expressions;bundle-vers
- ion="[3.4.0,4.0.0)"
+ 0)",org.eclipse.debug.core;bundle-version="[3.12.0,4.0.0)",org.eclips
+ e.jdt.core;bundle-version="[3.22.0,4.0.0)",org.eclipse.core.runtime;b
+ undle-version="[3.11.0,4.0.0)",org.eclipse.core.expressions;bundle-ve
+ rsion="[3.4.0,4.0.0)"
 Bundle-ManifestVersion: 2
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/jdt/ec
- lipse.jdt.debug.git;path="org.eclipse.jdt.debug";tag="M20170922-0740"
- ;commitId=5dc3b41e97884a94e4037ca7ae78bc4a7c4d962c
+ lipse.jdt.debug.git;path="org.eclipse.jdt.debug";tag="I20200526-0600"
+ ;commitId=a2a5e4202d4d762acfffe98567c2a004a988c215
 Bundle-Vendor: %providerName
-Import-Package: com.ibm.icu.text
 Export-Package: com.sun.jdi;x-friends:="org.eclipse.jdt.debug.ui,org.e
  clipse.jdt.launching",com.sun.jdi.connect;x-friends:="org.eclipse.jdt
  .debug.ui,org.eclipse.jdt.launching",com.sun.jdi.connect.spi;x-friend
@@ -40,32 +38,32 @@ Export-Package: com.sun.jdi;x-friends:="org.eclipse.jdt.debug.ui,org.e
  .ui",org.eclipse.jdt.internal.debug.eval.ast.instructions;x-friends:=
  "org.eclipse.jdt.debug.ui"
 Bundle-Name: %pluginName
-Bundle-Version: 3.11.50.v20170920-1717
+Bundle-Version: 3.15.100.v20200525-2012
 Bundle-ClassPath: jdi.jar,jdimodel.jar,tools.jar
 Bundle-Localization: plugin
 Bundle-Activator: org.eclipse.jdt.internal.debug.core.JDIDebugPlugin
-Created-By: Apache Maven 3.3.3
-Build-Jdk: 1.8.0_131
+Build-Jdk-Spec: 11
+Created-By: Maven Archiver 3.5.0
 Eclipse-BundleShape: dir
 
-Name: plugin.xml
-SHA-256-Digest: S5o5G7/c6SFoaKSI2fLB1h5bYlmOAUaWi6B/ejRakLU=
-
 Name: about.html
-SHA-256-Digest: 0RM1x9lTJa7T8YkysaegPuBIeaEvSZypRDfXoMpsJAU=
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: plugin.xml
+SHA-256-Digest: pjJZPlOS3jUhHLzNJRHiOQerFDwf1rEVQsMH5LnTCag=
 
 Name: plugin.properties
-SHA-256-Digest: maCGXnnafYaeonbe0/lvHcQ7Q3BHpM7sQyHQs2r/dFg=
+SHA-256-Digest: Z2ERadz5oHR6m2D0wWZDwsJJ7NlYo+osS6eRSYBZ5vg=
 
 Name: .api_description
-SHA-256-Digest: 30xYmRlOoj4pCEYrqSwOBhLeTwgEbYvDObzWAUMfpPo=
+SHA-256-Digest: hxLoL+skzWVHOidWMkLlEIbhtMwTu/90cpH1npabdGo=
 
 Name: jdi.jar
-SHA-256-Digest: hRME529TyS3TCJ2G56b1hxjcazDTgvCUklerObRlxW0=
+SHA-256-Digest: HHDmR7vY47HUaqPlt7CMHr1x1/LGjJJXI9YYCsIRSM4=
 
 Name: .options
 SHA-256-Digest: BdMc2fx0WAAPoLCGV+a1fjhn3Cvf16tlkGpUODbAjjM=
 
 Name: jdimodel.jar
-SHA-256-Digest: UQohsPSoIDBciArtSxL5lYpBlDusAlOZ+5hNO6XHm4g=
+SHA-256-Digest: WQBDjghf8zCqnKZDcuEf2x45WQeT3n+YNrt0T7lXtcU=
 

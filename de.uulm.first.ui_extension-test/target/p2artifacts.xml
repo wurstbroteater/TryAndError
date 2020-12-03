@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='de.uulm.first.ui_extension-test' version='0.0.2.202012011951'>
+  <artifact classifier='osgi.bundle' id='de.uulm.first.ui_extension-test' version='0.0.2.202012031650'>
     <properties size='5'>
-      <property name='artifact.size' value='2862'/>
-      <property name='download.size' value='2862'/>
+      <property name='artifact.size' value='2864'/>
+      <property name='download.size' value='2864'/>
       <property name='maven-groupId' value='de.uulm.first.ui_extension'/>
       <property name='maven-artifactId' value='de.uulm.first.ui_extension-test'/>
       <property name='maven-version' value='0.0.2-SNAPSHOT'/>
